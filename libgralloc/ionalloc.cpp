@@ -34,7 +34,7 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <string.h>
-#include <cutils/log.h>
+#include <log/log.h>
 #include <errno.h>
 #include <string.h>
 #include <utils/Trace.h>
