@@ -21,7 +21,7 @@ LOCAL_COPY_HEADERS            := copybit.h copybit_priv.h c2d2.h
 include $(BUILD_COPY_HEADERS)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE                  := copybit.$(TARGET_BOARD_PLATFORM)
+LOCAL_MODULE                  := copybit.$(PRODUCT_BOARD_PLATFORM)
 LOCAL_VENDOR_MODULE           := true
 LOCAL_MODULE_RELATIVE_PATH    := hw
 LOCAL_MODULE_TAGS             := optional
